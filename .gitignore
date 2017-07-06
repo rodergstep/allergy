@@ -1,0 +1,8 @@
+node_modules/*
+addons/*
+src/*
+gulpfile.js
+gutil.log
+package.json
+package-lock.json
+yarn.lock
