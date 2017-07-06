@@ -1,2 +1,2 @@
 # allergy
-website for Lenny
+website for Lenny  https://rodergstep.github.io/allergy/
