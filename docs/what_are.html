@@ -51,53 +51,59 @@
             <img src="img/pollen.png" class="header__pollen header__pollen--right" alt="Pollen picture">
         </header>
         <!--NAVIGATION-->
-        <nav role='navigation'>
-            <ul class="menu">
-                <li class="menu__item"><a href="#" class="menu__link is-active">Allergies</a>
-                    <ul class="menu__dropdown">
-                        <li><a href="what_are.html" class="menu__item--dropdown">What are Allergies</a></li>
-                        <li><a href="triggers.html" class="menu__item--dropdown">Allergy Triggers</a></li>
-                        <li><a href="symptoms.html" class="menu__item--dropdown">Allergy Symptoms</a></li>
-                        <li><a href="types.html" class="menu__item--dropdown">Types of Allergies</a></li>
-                    </ul>
-                </li>
+        <nav role='navigation' class="menu-wrap">
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu__item"><a href="#" class="menu__link is-active">Allergies</a>
+                        <ul class="menu__dropdown">
+                            <li><a href="what_are.html" class="menu__item--dropdown">What are Allergies</a></li>
+                            <li><a href="triggers.html" class="menu__item--dropdown">Allergy Triggers</a></li>
+                            <li><a href="symptoms.html" class="menu__item--dropdown">Allergy Symptoms</a></li>
+                            <li><a href="types.html" class="menu__item--dropdown">Types of Allergies</a></li>
+                        </ul>
+                    </li>
 
-                <li class="menu__item">
-                    <a href="skin.html" class="menu__link">Skin Allergies</a>
-                </li>
+                    <li class="menu__item">
+                        <a href="skin.html" class="menu__link">Skin Allergies</a>
+                    </li>
 
-                <li class="menu__item menu__item--wide">
-                    <a href="antihistamines.html" class="menu__link ">What are <br>Antihistamines?</a>
-                </li>
-            </ul>
+                    <li class="menu__item menu__item--wide">
+                        <a href="antihistamines.html" class="menu__link ">What are <br>Antihistamines?</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
 <!--MAIN CONTENT-->
 <main class="main">
-    <section class="content" style="background-image: url('img/bg.png')">
-        <img src="img/cat-look.png" alt="What are allergies?" class="content__cat">
-        <article class="content__text">
-            <h2 class="content__title">What are allergies?</h2>
-            <p>An allergic reaction occurs when your immune system attacks or reacts to a foreign substance as if it were a threat. These foreign substances are called allergens. Your body creates a chemical called histamine, which causes many of the symptoms
-                that go with allergies.</p>
-            <p>Seasonal allergic rhinitis is commonly called hay fever.<sup><a href="references.html">2</a></sup></p>
-            <a href="tips.html" class="content__tips-link" style="background-image: url('img/tips-bg.png')">Tips for Treating Allergies</a>
-        </article>
-        <img src="img/what-are-allergies.png" alt="What are allergies?" class="content__woman">
-    </section>
+    <div class="container">
+        <section class="content content--what" style="background-image: url('img/bg.png')">
+            <img src="img/cat-look.png" alt="What are allergies?" class="content--what__cat">
+            <article class="content__text">
+                <h2 class="content__title">What are allergies?</h2>
+                <p>An allergic reaction occurs when your immune system attacks or reacts to a foreign substance as if it were a threat. These foreign substances are called allergens. Your body creates a chemical called histamine, which causes many of the
+                    symptoms that go with allergies.</p>
+                <p>Seasonal allergic rhinitis is commonly called hay fever.<sup><a href="references.html">2</a></sup></p>
+                <a href="tips.html" class="content__tips-link" style="background-image: url('img/tips-bg.png')">Tips for Treating Allergies</a>
+            </article>
+            <img src="img/what-are-allergies.png" alt="What are allergies?" class="content--what__woman">
+        </section>
+    </div>
 </main>
 
 
 <!--FOOTER-->
 <footer class="footer">
-    <div class="footer__icons-bar">
-        <img src="img/icons-bar.png" alt="Allergy Triggers Icons">
+    <div class="container">
+        <div class="footer__keeping">
+            <div class="footer__title-border"></div>
+            <h1 class="footer__title">Keeping <br> Allergies Away</h1>
+        </div>
+        <div class="footer__icons-bar">
+            <img src="img/icons-bar.png" alt="Allergy Triggers Icons">
+        </div>
+        <a href="references.html" class="footer__references">References</a>
     </div>
-    <div class="footer__keeping">
-        <div class="footer__title-border"></div>
-        <h1 class="footer__title">Keeping <br> Allergies Away</h1>
-    </div>
-    <a href="references.html" class="footer__references">References</a>
 </footer>
 </div>
 

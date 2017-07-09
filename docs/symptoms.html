@@ -51,56 +51,64 @@
             <img src="img/pollen.png" class="header__pollen header__pollen--right" alt="Pollen picture">
         </header>
         <!--NAVIGATION-->
-        <nav role='navigation'>
-            <ul class="menu">
-                <li class="menu__item"><a href="#" class="menu__link is-active">Allergies</a>
-                    <ul class="menu__dropdown">
-                        <li><a href="what_are.html" class="menu__item--dropdown">What are Allergies</a></li>
-                        <li><a href="triggers.html" class="menu__item--dropdown">Allergy Triggers</a></li>
-                        <li><a href="symptoms.html" class="menu__item--dropdown">Allergy Symptoms</a></li>
-                        <li><a href="types.html" class="menu__item--dropdown">Types of Allergies</a></li>
-                    </ul>
-                </li>
+        <nav role='navigation' class="menu-wrap">
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu__item"><a href="#" class="menu__link is-active">Allergies</a>
+                        <ul class="menu__dropdown">
+                            <li><a href="what_are.html" class="menu__item--dropdown">What are Allergies</a></li>
+                            <li><a href="triggers.html" class="menu__item--dropdown">Allergy Triggers</a></li>
+                            <li><a href="symptoms.html" class="menu__item--dropdown">Allergy Symptoms</a></li>
+                            <li><a href="types.html" class="menu__item--dropdown">Types of Allergies</a></li>
+                        </ul>
+                    </li>
 
-                <li class="menu__item">
-                    <a href="skin.html" class="menu__link">Skin Allergies</a>
-                </li>
+                    <li class="menu__item">
+                        <a href="skin.html" class="menu__link">Skin Allergies</a>
+                    </li>
 
-                <li class="menu__item menu__item--wide">
-                    <a href="antihistamines.html" class="menu__link ">What are <br>Antihistamines?</a>
-                </li>
-            </ul>
+                    <li class="menu__item menu__item--wide">
+                        <a href="antihistamines.html" class="menu__link ">What are <br>Antihistamines?</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
 <!--MAIN CONTENT-->
 <main class="main">
-    <section class="content content--symptoms" style="background-image: url('img/bg.png')">
-        <article class="symptoms__text">
-            <h2 class="content__title">Allergy Symptoms<sup><a href="references.html">5 </a></sup></h2>
-            <ul class="content__list">
-                <li class="content__list-item">Sneezing</li>
-                <li class="content__list-item">Itchy, runny nose</li>
-                <li class="content__list-item">Itchy, watery eyes </li>
-                <li class="content__list-item">Rashes</li>
-                <li class="content__list-item">Feeling tired</li>
-                <li class="content__list-item">Hives (a rash with raised red patches)</li>
-            </ul>
-        </article>
-        <img src="img/allergy-symptoms.png" alt="What are allergies?" class="content__img-symptoms">
-    </section>
+    <div class="container">
+        <section class="content content--symptoms" style="background-image: url('img/bg.png')">
+            <article class="symptoms__text">
+                <h2 class="symptoms__title">Allergy Symptoms<sup><a href="references.html">5 </a></sup></h2>
+                <ul class="content__list">
+                    <li class="content__list-item">Sneezing</li>
+                    <li class="content__list-item">Itchy, runny nose</li>
+                    <li class="content__list-item">Itchy, watery eyes </li>
+                    <li class="content__list-item">Rashes</li>
+                    <li class="content__list-item">Feeling tired</li>
+                    <li class="content__list-item">Hives (a rash with raised red patches)</li>
+                </ul>
+            </article>
+            <div class="symptoms__img">
+                <img src="img/allergy-symptoms.png" alt="What are allergies?">
+            </div>
+        </section>
+    </div>
 </main>
 
 
 <!--FOOTER-->
 <footer class="footer">
-    <div class="footer__icons-bar">
-        <img src="img/icons-bar.png" alt="Allergy Triggers Icons">
+    <div class="container">
+        <div class="footer__keeping">
+            <div class="footer__title-border"></div>
+            <h1 class="footer__title">Keeping <br> Allergies Away</h1>
+        </div>
+        <div class="footer__icons-bar">
+            <img src="img/icons-bar.png" alt="Allergy Triggers Icons">
+        </div>
+        <a href="references.html" class="footer__references">References</a>
     </div>
-    <div class="footer__keeping">
-        <div class="footer__title-border"></div>
-        <h1 class="footer__title">Keeping <br> Allergies Away</h1>
-    </div>
-    <a href="references.html" class="footer__references">References</a>
 </footer>
 </div>
 
